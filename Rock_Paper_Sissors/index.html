@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Sissor</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+    
+</head>
+    <body>
+        <section class="game">
+            <div class="score">
+                <div class="Player-score" >
+                    <h2>Player</h2>
+                    <input  type="text" style="color: chartreuse;"  id="p1" />
+                </div>
+                <div class="Computer-score">
+                    <h2>Computer</h2>
+                    <input  type="text" style="color: chartreuse;"  id="c1" />
+                </div>
+            </div>
+            <br>
+            <br>
+            <images class="images">
+                <div class="rock">
+                    <img src="./image/Rock.png" width="150" height="100"/>
+                    <br>
+                    <button onclick="eventChange('rock')">Rock</button>
+                </div>
+                <div class="sissor">
+                    <img src="./image/sissor.jpg" width="150" height="100"/>
+                    <br>
+                    <button onclick="eventChange('sissor')">Sissor</button>
+                </div>
+                <div class="paper">
+                    <img src="./image/paper.png" width="150" height="100"/>
+                    <br>
+                    <button onclick="eventChange('paper')">Paper</button>
+                </div>
+            </images>
+            <br>
+            <br>
+            <br>
+            <h2 id="two">Update</h2>
+        </section>
+        <div class="start">
+            <button class="star" onclick="winner()">START</button>
+        </div>
+        <h1 id="one">Winner Here</h1>
+        <script src="./index.js"></script>
+    </body>
+</html>
