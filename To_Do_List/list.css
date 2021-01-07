@@ -1,0 +1,23 @@
+input[type="button"] 
+    { 
+         background-color:rgb(209, 179, 179); 
+         color: black; 
+         
+         border: solid black 2px; 
+         
+    } 
+
+
+
+input[type="text"] 
+    { 
+        background-color:white; 
+        border: solid black 2px; 
+        height:22px;
+        
+         
+    } 
+.delete {
+    display: none;
+}
+
