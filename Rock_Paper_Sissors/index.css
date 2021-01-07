@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    background: rgb(17, 17, 100);
+}
+
+button{
+    color:white;
+    background-color: rgb(55, 80, 72);
+}
+
+.score{
+    padding:50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Player-wins{
+    padding:10px;
+
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.start{
+    padding:30px;
+}
+#one{
+    color: darkgray;
+}
+#two{
+    color:red;
+}
